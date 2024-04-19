@@ -17,6 +17,12 @@ console.log(personaje);
 console.log(personaje.anime); // <----- Forma 1 de acceder a propiedades (Notación de punto))
 console.log(personaje["nombre"]); // <----- Forma 2 de acceder a propiedades (Notación de corechetes)
 
+
+//Editar propiedades de un objeto
+personaje.edad = 17
+
+
+//eliminar propiedades 
 delete personaje.anime;
 
 console.log(personaje);
