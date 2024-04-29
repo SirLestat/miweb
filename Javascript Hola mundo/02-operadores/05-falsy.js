@@ -11,7 +11,7 @@
 //undefined
 //NaN
 
-let nombre = 'Chanchito feliz';
+let nombre = 'Felipe';
 let username = nombre || 'Anónimo';
 
 console.log(username);
