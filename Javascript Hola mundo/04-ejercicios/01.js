@@ -6,6 +6,6 @@ function cualEsMayor(a,b) {
     return (a>b) ? a : b;
 }
 
-let mayor = cualEsMayor(10,15);
+let mayor = cualEsMayor(20,21);
 
 console.log(mayor);
