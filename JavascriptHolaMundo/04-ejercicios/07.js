@@ -12,6 +12,9 @@ let array = [{ //<----- Se declara el arreglo que se pasará como argumento en l
 }, {
     id: 3,
     nombre: 'Perrete'
+}, {
+    id: 4,
+    nombre: 'Hola'
 }];
 
 
@@ -24,9 +27,9 @@ let array = [{ //<----- Se declara el arreglo que se pasará como argumento en l
 
 function toPairs(arr) {
     let pairs = []; //<----- Se declara una variable que almacenará el arreglo antes declarado
-    for (idx in arr) {  //<----- Se inicia un ciclo for que iterará sobre cada indice 
-        let elemento = arr[idx];
-        pairs[idx] = [elemento.id, elemento];
+    for (idx in arr) {  //<----- Se inicia un ciclo for que iterará sobre cada indice del arreglo
+        let elemento = arr[idx]; //<----- Se inicializa una variable que va almacenar el elemento del arreglo en este caso
+        pairs[idx] = [elemento.id, elemento]; //<----- Se asigna 
     }
     return pairs;
 }
