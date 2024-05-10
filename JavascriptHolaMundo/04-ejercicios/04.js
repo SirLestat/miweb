@@ -28,7 +28,7 @@ function obtenerMenorMayor(arregl) {
         if (nMenor < num) { // <----- Verifica que la variable 'nMenor' sea menor al primer elemento encontrado en el arreglo.
             nMenor = nMenor; 
         } else {
-        nMenor = num //<----- como 2 no es menor 2 se asigna el número 2.
+        nMenor = num //<----- como 2 no es menor que 2 se asigna el número 2.
         }
 
         if (nMayor > num) { //<----- verifica que la variable 'nMayor' sea mayor al primer elemento en este caso 2
@@ -46,7 +46,7 @@ function obtenerMenorMayor(arregl) {
         se repite el ciclo hasta que se comparen todos los números del arreglo y se encuentre el mayor y el menor
         */
     }
-    return [nMenor,nMayor];
+    return [nMenor,nMayor]; //<----- retorna el valor asociado a cada variable.
 }
 
 let numeross = obtenerMenorMayor(arreglo);
