@@ -1,7 +1,7 @@
 
 def triangle():
     a = "*"
-    for _ in range(0,5):
+    for _ in range(0,50):
         print(a)
         a+="*"
 
